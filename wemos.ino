@@ -3,7 +3,7 @@
 #include <ArduinoJson.h>
 
 // ===== WIFI & API KEY =====
-const char* WIFI_SSID = "Sismadi";
+const char* WIFI_SSID = "127.0.0.1";
 const char* WIFI_PASS = "12345678";
 const char* API_KEY   = "rahasiaku123";     // samakan dengan di HTML
 
