@@ -46,6 +46,12 @@ graph TD
 
 ## 🖥️ Interface Sistem
 
+
+### Antrian App
+
+[antrian app](https://sismadi.github.io/simulasi-pemodelan/)
+
+
 ### Dashboard Admin
 ![Dashboard Antrian](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=Dashboard+Monitoring+Antrian)
 
@@ -62,21 +68,9 @@ graph TD
 
 ```python
 # Contoh kode face recognition
-import cv2
-import face_recognition
-import numpy as np
-
-class FaceRecognitionQueue:
-    def __init__(self):
-        self.known_face_encodings = []
-        self.known_face_names = []
-        
-    def add_customer(self, image, name):
-        # Tambah wajah baru ke database
-        face_encoding = face_recognition.face_encodings(image)[0]
-        self.known_face_encodings.append(face_encoding)
-        self.known_face_names.append(name)
-```
+ <!-- OpenCV.js -->
+  <script async src="https://docs.opencv.org/4.x/opencv.js" onload="onOpenCvReady()"></script>
+ ```
 
 ## 📈 Simulasi Performa
 
@@ -118,9 +112,10 @@ pip install numpy
 pip install pandas
 ```
 
-### 2. **Konfigurasi Awal**
+### 2. **Konfigurasi Instalasi Database**
 ```python
 # config.py
+
 SYSTEM_CONFIG = {
     'max_queues': 5,
     'recognition_threshold': 0.6,
@@ -153,9 +148,8 @@ SYSTEM_CONFIG = {
 ### Key Performance Indicators (KPI)
 1. **Waktu Tunggu Rata-rata**
 2. **Akurasi Pengenalan Wajah**
-3. **Kepuasan Pengunjung**
-4. **Utilisasi Loket**
-5. **Throughput Sistem**
+3. **Utilisasi Loket**
+4. **Throughput Sistem**
 
 ## 🔄 Workflow Sistem
 
