@@ -1,4 +1,4 @@
-# Sistem Antrian Berbasis Face Recognition
+# Sistem Antrian Berbasis Face Recognition Pendaftaran Siswa
 
 ## 📋 Deskripsi Proyek
 
